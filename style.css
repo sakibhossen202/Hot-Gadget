@@ -16,6 +16,15 @@
 .carousel-item{
     padding:20px 40px;
 }
+.carousel-indicators li{
+    background-color:grey;
+}
+.carousel-indicators .active{
+    background-image: linear-gradient(orange ,orange);
+    padding:2px 3px;
+    
+}
+
 .colorize{
     color:orange;
     text-decoration:none;
