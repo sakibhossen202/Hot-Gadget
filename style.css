@@ -1,19 +1,14 @@
-.row{
-    background-image: url(banner-products/bg-2.png);
-     
-    background-repeat:no-repeat;
 
     
-
-}
-.col-md-7{
-    background-image: url(banner-products/bg-1.png);
-    
-    background-repeat:no-repeat;
-}
 
 .container{
     margin-bottom: 100px;
+    
+}
+
+.bg-image{
+    background-image:url(banner-products/bg-2.png);
+    background-repeat:no-repeat;
     
 }
 .buy-btn{
