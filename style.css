@@ -1,27 +1,46 @@
-.bg-image{
-    background-image: url(banner-products/background.jpg);
-    background-size:cover;
+.row{
+    background-image: url(banner-products/bg-2.png);
+     
+    background-repeat:no-repeat;
+
+    
+
+}
+.col-md-7{
+    background-image: url(banner-products/bg-1.png);
+    
     background-repeat:no-repeat;
 }
 
 .container{
     margin-bottom: 100px;
+    
 }
 .buy-btn{
     background-color: black;
     color:white;
     border-radius:5px;
+    border:none;
     padding: 8px 15px;
 }
-.carousel-item{
+.carousel-item {
     padding:20px 40px;
 }
 .carousel-indicators li{
-    background-color:grey;
+background-color: gray;
+    height: 8px;
+    width: 16px;
+    border: none;
+    border-radius:15px;
 }
+ 
+
 .carousel-indicators .active{
-    background-image: linear-gradient(orange ,orange);
-    padding:2px 3px;
+    background-image: linear-gradient(red,yellow);
+    padding: 0px 8px;
+    
+    border-radius:20px;
+    
     
 }
 
@@ -30,14 +49,32 @@
     text-decoration:none;
     display:inline;
 }
-h3.display-system{
-    display:inline;
-}
+
 .card-footer{
     border:none;
 }
+.border-bottom{
+    height:10px;
+    width:120px;
+    background-color: orange;
+    border-radius: 15px;
+    margin: 0 auto;
 
-.check img{
-    width:100%;
 }
 
+
+
+
+.cat-bag, .cat-perfume, .cat-shoe{
+    box-shadow: 5px 5px 10px grey;
+    text-align: center;
+}
+.cat-bag{
+    border-radius: 0px 0px 0px 12px;
+}
+.cat-perfume{
+    border-radius: 0px 0px 12px 0px;
+}
+.cat-shoe{
+    border-radius: 0px 0px 12px 0px;
+}
